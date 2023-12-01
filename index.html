@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
+
         <header>
             <h1>TK Photography</h1>
             <nav>
@@ -18,58 +20,94 @@
                 </ul>
             </nav>
         </header>
+
         <main>
+
             <section>
                 <h2>About</h2>
                 <p>Hello!</p>
                 <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
             </section>
 
-            <section>
-                <h2>Gallery</h2>
+            <section class="Gallery">
+                <h2 id="Gallery">Gallery</h2>
                 <p>Here are some highlights of my work. The locations and year are in the caption.</p>
-                Chile.png
-                Chile, 2001
+                <div class="images">
+                    <figure>
+                    <img src="images/Chile.png" alt="rocks on beach at sunset">
+                    <figcaption>Chile, 2001</figcaption>
+                    </figure>
 
-                Guatemala.png
-                Guatemala, 1997
+                    <figure>
+                        <img src="images/Guatemala.png" alt="purple sunset with purple flowers and lake and mountains in background">
+                        <figcaption>Guatemala, 1997</figcaption>
+                    </figure>
 
-                Hawaii.png
-                Hawaii, 2010
+                    <figure>
+                        <img src="images/Hawaii.png" alt="island mountains on beach">
+                        <figcaption>Hawaii, 2010</figcaption>
+                    </figure>
 
-                Iran.png
-                Iran, 1999
+                    <figure>
+                        <img src="images/Iran.png" alt="red and gold plants in desert with mountains in background with sunset">
+                        <figcaption>Iran, 1999</figcaption>
+                    </figure>
 
-                Ireland.png
-                Ireland, 2012
+                    <figure>
+                        <img src="images/Ireland.png" alt="green rolling hills with mist and trees">
+                        <figcaption>Ireland, 2012</figcaption>
+                    </figure>
 
-                Italy.png
-                Italy, 2015
+                    <figure>
+                        <img src="images/Italy.png" alt="small boat in lake with mountains and pine trees in background">
+                        <figcaption>Italy, 2015</figcaption>
+                    </figure>
 
-                Moab-Desert.png
-                Moab Desert, 2020
+                    <figure>
+                        <img src="images/Moab-Desert.png" alt="view from under cliff overlooking desert horizon">
+                        <figcaption>Moab Desert, 2020</figcaption>
+                    </figure>
 
-                Rocky-Mountains.png
-                Rocky Mountains, 2009
+                    <figure>
+                        <img src="images/Rocky-Mountains.png" alt="water streaming over rocking terrain, builds into mountains in background">
+                        <figcaption>Rocky Mountains, 2009</figcaption>
+                    </figure>
 
-                Switzerland.png
-                Switzerland, 2014
+                    <figure>
+                        <img src="images/Switzerland.png" alt="view of snowing mountains with pass through trees">
+                        <figcaption>Switzerland, 2014</figcaption>
+                    </figure>
 
-                UK.png
-                UK, 2005
+                    <figure>
+                        <img src="images/UK.png" alt="green grassy valley passing through rolling hills">
+                        <figcaption>UK, 2005</figcaption>
+                    </figure>
 
-                USA.png
-                USA, 2021
+                    <figure>
+                        <img src="images/USA.png" alt="field of flowers with cloudy skies">
+                        <figcaption>USA, 2021</figcaption>
+                    </figure>
 
-                Wyoming.png
-                Wyoming, 2021
+                    <figure>
+                        <img src="images/Wyoming.png" alt="pine trees and mountains with blue sky reflected on lake below">
+                        <figcaption> Wyoming, 2021</figcaption>
+                    </figure>
+                </div>
             </section>
 
-            <section>
-                <h2>Contact</h2>
-                <p>Please fill out this form and I’ll connect with you soon.</p>
-            </section>
         </main>
+
+        <form class="contact">
+            <h2 id="contact">Contact</h2>
+            <p>Please fill out this form and I’ll connect with you soon.</p>
+            <h3>Contact Information</h3>
+
+            <label for="name">Name<input type="text" placeholder="Your full name" id="name" name="name"></label>
+            <label for="email">Email<input type="text" placeholder="Enter your email address" id="email" name="email"></label>
+            <label for="message">Message<input type="text" placeholder="What can I help you with?" id="message" name="message"></label>
+            <button type="submit" value="Submit">Submit</button>
+        </form>
+
         <footer>
             <small>Copyright 2021 TK Photography</small>
         </footer>
