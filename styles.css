@@ -239,7 +239,11 @@ figcaption {
 }
 
 @media screen and (min-width:485px) {
-    display:grid;
+    main {
+        justify-content:center;
+        display:grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (min-width:880px) {
@@ -247,5 +251,5 @@ figcaption {
 }
 
 @media screen and (min-width:1300px) {
-    
+
 }
