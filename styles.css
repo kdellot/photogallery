@@ -32,3 +32,220 @@ content justified center
 content justified right
 3 column layout
 ***********************************************/
+
+html {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 1310px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    font-size: 3em;
+    color: #007D7B;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    color: #000000;
+    margin: 0;
+}
+
+h3 {
+    visibility: hidden;
+    display: inline;
+}
+
+p {
+    font-size: 1.25em;
+    color: #000000;
+    margin: 0;
+}
+
+form {
+    width: 1310px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+/* Header and Nav */
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #000000;
+    color: #ffffff;
+    height: fit-content;
+}
+
+ul li {
+    display: inline;
+    position: relative;
+    left: 645px;
+    top: -45px; 
+}
+
+li a {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-transform:uppercase;
+    text-decoration: none;
+    padding-left: 80px;
+}
+
+nav a:hover {
+    color: #007D7B;
+}
+
+nav a {
+    font-size: 1.5em;
+}
+
+[href="#top"] {
+    background-color: #007D7B;
+    position: fixed;
+    height: 20px;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+}
+
+[href="#top"]:hover {
+    background-color: #FFFFFF;
+    color:#007D7B;
+}
+
+/* Main, Contact, and Footer */
+
+.about {
+    width: 420px;
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.about p + p {
+    text-indent: 30px;
+    height: 20px;
+}
+
+.gallery {
+    clear: both;
+    margin: 0 auto;
+}
+
+.gallery h2, .gallery p {
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2, .contact p {
+    color: #FFFFFF;
+}
+
+h2 .contact, label {
+    color: #FFFFFF;
+} 
+
+label,  [name], button {
+    display: block;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: left;
+    width: 850px;
+    margin: 0 auto;
+    
+}
+
+input, ::placeholder {
+    color:#007D7B;
+    font-size: inherit;
+    text-transform: uppercase;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+label, input, small {
+    font-size: 1em;
+}
+
+button {
+    background-color: #007D7B;
+    color: #FFFFFF;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #007D7B;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;;
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Images */
+
+#author {
+    width: 850px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+
+figure {
+    width: 420px;
+    height: 281px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+img[alt^="I"] {
+    height: 630px;
+}
+
+figcaption {
+    font-size: 1em;
+    position: relative;
+    text-transform: uppercase;
+    display: inline;
+    top: 20px;
+    padding: 5px;
+}
+
+@media screen and (min-width:485px) {
+    display:grid;
+}
+
+@media screen and (min-width:880px) {
+
+}
+
+@media screen and (min-width:1300px) {
+    
+}
