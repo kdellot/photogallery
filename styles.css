@@ -94,9 +94,6 @@ nav {
 
 ul li {
     display: inline;
-    position: relative;
-    left: 645px;
-    top: 25px;
 }
 
 li a {
@@ -199,14 +196,6 @@ footer {
 /**********************************************/
 
 
-#author {
-    width: 850px;
-    float: left;
-    margin-left: 10px;
-}
-
-
-
 figure {
     width: 420px;
     height: 281px;
@@ -236,17 +225,17 @@ figcaption {
 /**********************************************/
 
 @media screen and (min-width:485px) {
-    main {
-        justify-content:center;
+    body {
         display:grid;
         grid-template-columns: 1fr;
     }
 }
 
 @media screen and (min-width:880px) {
+  
 
 }
 
 @media screen and (min-width:1300px) {
-
+  
 }
